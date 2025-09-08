@@ -1,7 +1,7 @@
 import apiClient from "../../services/api-client";
 import { useState, useEffect } from "react";
 
-interface Game {
+export interface Game {
     id: number;
     name: string;
 }
