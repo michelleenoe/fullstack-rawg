@@ -2,6 +2,7 @@ import { Grid, GridItem } from '@chakra-ui/react'
 import './App.css'
 import { Show } from '@chakra-ui/react'
 import Nav from './components/Nav.tsx'
+import { GameGrid } from './components/GameGrid.tsx'
 
 
 function App() {
@@ -21,8 +22,8 @@ function App() {
     Aside
   </GridItem>
   </Show>
-  <GridItem pl='2' bg='green.300' area={'main'}>
-  Main
+  <GridItem pl='2' area={'main'}>
+  <GameGrid />
   </GridItem>
 
 </Grid>
