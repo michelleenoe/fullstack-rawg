@@ -2,7 +2,7 @@ import useGames from "../lib/hooks/useGames";
     
 export const GameGrid = () => {
     const { games, error } = useGames();
-    
+
     return (
         <div>
             {error && <div>Error: {error}</div>}
